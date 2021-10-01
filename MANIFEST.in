@@ -7,7 +7,7 @@ include house_prices_regression_model/dat/train.csv
 include house_prices_regression_model/dat/test.csv
 include house_prices_regression_model/trained_models/*.pkl
 include house_prices_regression_model/VERSION
-include house_prices_regression_model/settings.yml
+include house_prices_regression_model/config/settings.yml
 
 include ./requirements/requirements.txt
 include ./requirements/test_requirements.txt
