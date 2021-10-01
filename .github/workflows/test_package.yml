@@ -14,9 +14,10 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements/test_requirements.txt
 
-    - name: Build artifact
-      run: |
-        python -m house_prices_regression_model.train_pipeline
+    #- name: Build artifact
+    #  run: |
+    #    python -m house_prices_regression_model.train_pipeline
+
     - name: Lint with flake8
       run: |
         pip install flake8
