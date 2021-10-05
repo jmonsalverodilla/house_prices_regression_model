@@ -10,7 +10,8 @@ def test_make_prediction(sample_test_data):
     expected_no_predictions = 1459
 
     # When
-    predictions = make_prediction(input_data=sample_test_data)
+    result = make_prediction(input_data=sample_test_data)
+    predictions = result.get('model_output')
 
     # Then
     assert isinstance(predictions, list)
